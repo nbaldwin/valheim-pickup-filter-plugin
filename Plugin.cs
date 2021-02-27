@@ -15,7 +15,7 @@ namespace PickupFilter
     public class Plugin : BaseUnityPlugin
     {
         public const string MID = "ravatar.pickupfilter";
-        public const string VERSION = "1.0.0.0";
+        public const string VERSION = "1.0.2";
         public const string EXPECTED_VALHEIM_VERSION = "0.146.11";
 
         public static readonly string VALHEIM_VERSION = (string)Assembly.GetAssembly(typeof(Player)).GetType("Version").GetMethod("GetVersionString", BindingFlags.Public | BindingFlags.Static).Invoke(null, null);
