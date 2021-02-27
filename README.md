@@ -12,7 +12,7 @@ When you encounter an item that you don't want to automatically pick up from the
 
 To stop ignoring an item on the ground, ALT + Left Click it again from your inventory. You can still manually pick up items off the ground with the Use key.
 
-# Commands
+# Chat Commands
 
 ## /pickup
 
