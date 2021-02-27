@@ -1,5 +1,5 @@
 # valheim-pickup-filter-plugin
-A BepInEx plugin for Valheim to selectively ignore items on the ground
+A BepInEx plugin for Valheim to selectively ignore items on the ground, preventing them from being automatically picked up.
 
 # Requirements
 - BepInEx: https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/
