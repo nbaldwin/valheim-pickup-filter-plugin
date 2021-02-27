@@ -14,15 +14,15 @@ To stop ignoring an item on the ground, ALT + Left Click it again from your inve
 
 # Chat Commands
 
-## /pickup
+## /pickupfilter
 
 Displays the PickupFilter help menu
 
-## /pickup list
+## /pickupfilter list
 
 Returns the list of items that will be ignored when walking hear them on the ground
 
-## /pickup clear
+## /pickupfilter clear
 
 Clears the ignored item list 
 

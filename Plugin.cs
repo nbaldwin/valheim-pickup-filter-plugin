@@ -125,7 +125,7 @@ namespace PickupFilter
         [HarmonyPatch(typeof(Chat), "Awake")]
         static void ChatAwakePrefix(ref Chat __instance)
         {
-            __instance.AddString("/pickup - displays PickupFilter commands");
+            __instance.AddString("/pickupfilter - displays PickupFilter commands");
         }
 
         [HarmonyPostfix]
@@ -161,7 +161,7 @@ namespace PickupFilter
         {
             string text = m_input(__instance).text;
 
-            if (text.StartsWith("/pickup"))
+            if (text.StartsWith("/pickupfilter"))
             {
                 string[] command = text.Split(' ');
 
